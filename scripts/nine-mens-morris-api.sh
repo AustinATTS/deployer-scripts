@@ -4,7 +4,7 @@ set -euo pipefail
 
 # Directory where the scripts are located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-BASE_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
+BASE_DIR="$(cd "$SCRIPT_DIR/../.." && pwd)"
 
 HELPER_DIR="$BASE_DIR/helper"
 
